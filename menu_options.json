@@ -1,0 +1,219 @@
+{
+    "main": {
+        "instructions": {
+            "text": "    - To go back to a previous menu, type 'b' or 'back'\n    - To exit, type 'exit' or 'quit' \n    - To select a menu item, type all or part of the name of the option - in the case of partial names, the first to match is selected! Look out for secrets! \n        - (note: the github version lacks some of the ebooks)\n\n"
+        },
+        "what is a computer?": {
+            "link": "https://www.singularityweblog.com/richard-feynman-how-computers-think/"
+        },
+        "programming languages": {
+        	"1. python": {
+    			"what is it good for?": {
+                    "text": "Python popular for building web servers (Google uses it a lot). It is also very popular for machine-learning, and is flexible enough to develop games with as well."
+                },
+                "why is it called python?": {
+                    "text": "out of love for monty python!"
+                },
+    			"recommend a course": {
+                    "link": "https://www.udacity.com/course/intro-to-computer-science--cs101"
+                }
+    		},
+    		"2. javascript": {
+    		    "what is it good for?": {
+                    "text": "Javascript is good at being flexible. The language is necessary for front-end web development. It is also commonly used to build servers thanks to NodeJS. Finally, the Unity game engine allows you to use it while developing games"
+                },
+    			"recommend an introductory front-end javascript resource": {
+    				"link": "https://channel9.msdn.com/Series/Javascript-Fundamentals-Development-for-Absolute-Beginners"
+    			},
+    			"recommend a NodeJS resource": {
+                    "link": "https://www.udemy.com/understand-nodejs/"
+                },
+    			"recommend an in-depth resource": {
+                    "link": "https://maximdenisov.gitbooks.io/you-don-t-know-js/content/"
+                }
+    		},
+    		"3. C programming language": {
+    		    "what is it good for?": {
+                    "text": "Low-level programming that requires very efficient algorithms and knowledge of computer hardware. Potentially extremely performant. Used to create the Linux Kernel and to program many embedded devices"
+                },
+    			"recommend a book": {
+                    "link": "https://www.amazon.ca/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_1?ie=UTF8&qid=1517099469&sr=8-1&keywords=the+c+programming+languages"
+                }
+    		},
+            "4. html and css": {
+                "what is it good for?": {
+                    "text": "A web page is made of 3 pieces: html, css, and javascript. HTML is mostly about text. CSS is mostly about style and layout. Javascript is about behaviour. HTML and CSS are necessary for making front-end web applications or even very simple websites."
+                },
+                "recommend a course": {
+                    "link": "https://channel9.msdn.com/Series/HTML5-CSS3-Fundamentals-Development-for-Absolute-Beginners"
+                }
+            },
+            "5. bash": {
+                "what is it good for?": {
+                    "text": "Bash is a 'shell' to send commands directly to programs or to the operating system. It is the heart of using linux in a terminal and gives incredible control over your system. You can also write sequences of commands into 'scripts' to run them in repeatable ways!"
+                },
+                "recommend a short course": {
+                    "link": "http://guide.bash.academy/"
+                }
+            },
+            "which ones are important / popular?": {
+                "stack overflow developer survey": {
+                    "link": "https://insights.stackoverflow.com/survey/2017"
+                },
+                "hackerrank developer survey": {
+                    "link": "http://research.hackerrank.com/developer-skills/2018/"
+                }
+            },
+            "where can I find answers to questions about these languages?": {
+                "stack overflow (for everything!)": {
+                    "link": "https://stackoverflow.com/"
+                },
+                "msdn (for C# if you end up using that)": {
+                    "link": "https://msdn.microsoft.com/en-ca/dn308572.aspx"
+                },
+                "udacity (as first stop, since its great)": {
+                    "link": "https://www.udacity.com/"
+                },
+                "udemy, but prices are scammy. Never buy until price < $20": {
+                    "link": "https://www.udemy.com/"
+                },
+                "mozilla developer network (for html / css / js / networking)": {
+                    "link": "https://developer.mozilla.org/en-US/"
+                }
+            }
+    	},
+    	"tools": {
+    		"git": {
+    			"what is it good for?": {
+                    "text": "collaborating on code with others as well as providing version control"
+                },
+    			"recommend a course": {
+                    "link": "https://www.udacity.com/course/how-to-use-git-and-github--ud775"
+                }
+    		},
+    		"text editors": {
+    			"which to choose?": {
+                    "text": "either choose atom, or flip a coin and choose between atom and sublime. Emacs and vim are great, but only learn them if you think its fun to have an extremely customizable, complicated, efficient editors that need some learning to use."
+                },
+                "what is the great editor war?": {
+                    "link": "https://www.youtube.com/watch?v=S76pHIYx3ik"
+                },
+    			"atom": {
+                    "link": "https://www.atom.io"
+                },
+    			"sublime text 3": {
+                    "link": "https://www.sublimetext.com"
+                },
+    			"emacs": {
+                    "link": "https://www.youtube.com/watch?v=B6jfrrwR10k"
+                },
+    			"vim": {
+                    "text": "type vimtutor into the console with vim installed. If it doesn't work, google it. It is a built-in tutorial that should come with the editor."
+                }
+    		},
+            "handy programs": {
+                "how to open epubs (ebooks)": {
+                    "link": "https://calibre-ebook.com/"
+                }
+            }
+    	},
+    	"gnu/linux": {
+            "what is the linux kernel used for?": {
+                "text": "The linux kernel is used in embedded devices, and is probably running on your TV. It powers Chromebooks, android phones, routers, and almost every server in the world. Its also used as the kernel for desktop operating systems like GNU, ie, Ubuntu, Fedora, etc"
+            },
+    		"why is it called gnu/linux?": {
+                "text": "An operating system has many parts. The GNU organization worked to create an operating system but had no kernel. The Linux kernel had no operating system to embed itself within. Both projects combined to create GNU/Linux, although for brevity some people just call it linux"
+    		},
+    		"people": {
+    		    "linus torvalds": {
+                    "who is he?": {
+                        "text": "the inventor of the linux kernel and current leader of the project"
+                    },
+                    "nvidia: F*** YOU":{
+                        "link": "https://www.youtube.com/watch?v=IVpOyKCNZYw"
+                    },
+                    "I hear he's a very interesting speaker?": {
+                        "link": "https://youtu.be/MShbP3OpASA?t=4m11s"
+                    }
+                },
+    			"richard stallman": {
+                    "who is he?": {
+                        "text": "Former MIT nerd who decided that users of software should be able to run their software however they like, should be able to have a copy of the source code, should be able to modify that source code, and should be able to share their modified or unmodified versions. He kick-started the 'free as in freedom' software community and created an operating system and a lot of other software to enable these freedoms"
+                    },
+                    "who is saint ignucious?": {
+                        "text": "somewhat strangely, he sometimes wears robes and a hat made of an old computer disk to preach about free software and his weird/amazing text editor, Emacs. It is gold"
+                    },
+                    "saint ignucious sounds weird": {
+                        "link": "https://www.youtube.com/watch?v=qIF5xnkcncI"
+                    },
+                    "What is 'free as in freedom' software?": {
+                        "link": "https://www.youtube.com/watch?v=SNBMdDaYhZA"
+                    },
+                    "secret": {
+                        "text": "The password to 'free_software_free_society' is: libre"
+                    }
+    			},
+                "I hear linux kernel developers are geniuses / slobs?": {
+                    "link": "https://www.youtube.com/playlist?list=PLbzoR-pLrL6rsb1bc3En9zaEor9S0gyIp"
+                }
+    		},
+    		"distributions": {
+                "what is a linux distribution?": {
+                    "text": "gnu/linux is modular. You combine a kernel with various utilities to read/write files and manage processes, then with a display software like X-org or Wayland, some kernel modules, and some other things. You also provide software repositories where you can find working software for use with this operating system. On top of all of this you also add a desktop-environment, which might be Unity, Gnome, KDE, Mate, xfce, or others."
+                },
+    			"which to choose?": {
+                    "text": "Ubuntu has a very large and friendly community of users and developers. This means that when you go online to find help for a problem, there are a lot of high quality resources you will find."
+                },
+                "recommend an invaluable ubuntu website": {
+                    "link": "https://askubuntu.com/"
+    		    },
+                "recommend a book": {
+                    "text": "how linux works is hidden in this program, if you can find it..."
+                }
+    		},
+    		"secret": {
+    			"text": "The password to how_linux_works is: sebastian"
+    		}
+    	},
+        "api": {
+            "what are apis?": {
+                "text": "an API is a standard 'interface' you can call to do stuff. Ie, they are functions, often written by strangers, that you can invoke in various ways that do predictable things."
+            },
+            "twilio": {
+                "text": "for using code to send text messages"
+            },
+            "google apis" : {
+                "text": "extremely diverse, can combine them in interesting ways too"
+            },
+            "open weather map": {
+                "text": "for weather data, ie, to make your own weather app"
+            }
+        },
+        "media": {
+            "lunduke show": {
+                "link": "http://lunduke.com/"
+            },
+            "halt and catch fire": {
+                "link": "https://www.netflix.com/ca/title/70302182"
+            },
+            "secret": {
+                "text": "The password for 'Art of Unix Programming' is haxor"
+            },
+            "hacker news": {
+                "link": "https://news.ycombinator.com/"
+            },
+            "virtual reality inventor on the future of tech": {
+                "link": "https://www.youtube.com/watch?v=VSH9gOqevRc"
+            }
+        },
+        "draw a flower (you only get one or it will blow up)": {
+            "run": "draw_flower"
+        },
+        "secret" : {
+            "text": "You found a secret menu item! Were you reading the json file?!?! To decrypt files, use gpg <filename> and use the password found in the other secret menus"
+        }
+    },
+    "help": {
+        "text": "back: 'back or 'b', exit: 'quit' 'q' or 'exit', select: type portion of option"
+    }
+}
